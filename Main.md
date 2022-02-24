@@ -15,3 +15,5 @@ The algorithm must be able to find meaningful state spaces which lead to higher 
 2. State space search algorithm. This will search for meaningful and informative state spaces and probably be the toughest to build. My current thought is to search space of tensors (for nonlinear equations, we can trade finite dimensions for nonlinearity). But we could start by considering comprehensive set of technical indicators that have been used throughout history.
 
 3. Bayesian algorithm. After we have the tools to express a time series as invariance in neighborhoods in different state spaces, we need to find correlations with a future set. That is this algorithm should find states that give high bayesian probability of future event. 
+
+<img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
