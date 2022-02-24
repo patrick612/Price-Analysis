@@ -19,3 +19,5 @@ Step 1 of the process looks like the following. The time series data is segmente
 After running the algorithm up to step 4, we obtain a data set containing number of consecutive points that have occured for all iterations with different offsets. The distribution of length of consecutive data is given below. The y axis is the count of number of consecutive points and the x axis is the length of consecutive points. 
 
 ![Figure_2](https://user-images.githubusercontent.com/77427280/155614108-b8963e32-8e21-41d3-8dcc-d42f3655f4a9.png)
+
+We see that 90 consecutive points is quite statistically significant. In fact, for 600 points of minute data, we have found the following results:<img width="571" alt="Screen Shot 2022-02-24 at 4 56 41 PM" src="https://user-images.githubusercontent.com/77427280/155614425-c65a2438-eef8-4ae5-bb52-738d52dad7ea.png">
