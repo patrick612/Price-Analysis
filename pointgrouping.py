@@ -3,13 +3,10 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
-df_1m = pd.read_csv("C:\\Users\\jaewoolee\\Desktop\\btc_data\\test_data\\Bitstamp_BTCUSD_minute.csv")
-df_1m = df_1m[0:600]
 # sectionalize into neighbourhoods for opening values
 #nb_perc is neighborhood range in percentile
 # for empty placeholders occuring due to offsets or the highest sections, -1 is assigned
 #0.01 is added to maximum value of the price list to include the last point
-
 def sectionalize(df, nb_perc, offset = False):
     col_open = df["open"]
     max_val = col_open.max()
@@ -99,12 +96,6 @@ def sample_consecutive(df, nb_perc, offset_list, longestpoint_index = False):
             else:
                 pass
         return sample_list, lp_index
-
-x = np.arange(0, len(df_1m['open']), 1)
-y = np.array(df_1m['open'])
-
-plt.scatter(x, y)
-plt.show
 
 def barchart(sample_list, width):
     x_list = []
