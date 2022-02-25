@@ -11,7 +11,7 @@ In order to group consecutive points that exhibit group behavior, we use neighbo
  
 # Test Result
 We have used 600 minute points of BTC price data for the test. 
-Step 1 of the process looks like the following. The time series data is segmented into price neighborhoods. The neighborhood size of 20% of price range was used. 5 different offsets were used. We see that Tthe largest consecutive points that occur is approximately 90 consecutive points which starts around 140th point. 
+Step 1 of the process looks like the following. The time series data is segmented into price neighborhoods. The neighborhood size of 20% of price range was used. 5 different offsets were used. We see that the largest consecutive points that occur is approximately 90 consecutive points which starts around 140th point. 
 
 ![Figure_1](https://user-images.githubusercontent.com/77427280/155604591-6994f730-d9f3-448f-b8a9-2cb927ace4db.png)
 
